@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.form-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.form-title{
+    font-size: 24px;
+}
+
+form{
+    margin: 16px 0;
+}
+
+form, .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    min-width: 250px;
+}
